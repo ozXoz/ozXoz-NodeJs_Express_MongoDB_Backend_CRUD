@@ -1,9 +1,9 @@
 const express =require("express");
 const { now } = require("mongoose");
 const { date } = require("yup");
-const { update } = require("../models/register_db");
+const { update } = require("../models/user_db");
 const routes = express.Router()
-const registerModel =require("../models/register_db")
+const registerModel =require("../models/user_db")
 
 
 

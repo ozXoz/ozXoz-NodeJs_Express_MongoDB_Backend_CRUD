@@ -4,8 +4,8 @@ const cors = require("cors");
 const app = express();
 require("dotenv").config();
 // For Admin
-const regisRoutes=require("./routes/register")
-const registerTutorRoutes=require("./routes/tutor")
+const regisRoutes=require("./routes/register_user")
+const registerTutorRoutes=require("./routes/register_tutor")
 const loginRoutes=require("./routes/login")
 
 
